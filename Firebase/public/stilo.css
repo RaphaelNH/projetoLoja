@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+#div1{
+    border-style: solid;
+    border-color: lime;
+    width: 40%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+button:hover{
+    border-width: 5px;
+    border-radius: 1em;
+    border-color: white;
+}
+
+button:active{
+    background-color: yellow;
+}
+
