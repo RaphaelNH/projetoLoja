@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stilo.css">
+    <title>Teste</title>
+  </head>
+  <body>
+        <H1>Welcome</H1><br><br>
+        <form>
+          <label for="userId">User ID:</label><br>
+          <input type="text" name="userId" id="userId"><br>
+          <label for="firstName">Primeiro Nome:</label><br>
+          <input type="text" name="firstName" id="firstName"><br>
+          <label for="lastName">Último Nome:</label><br>
+          <input type="text" name="lastName" id="lastName"><br>
+          <label for="age">Idade:</label><br>
+          <input type="number" name="age" id="age"><br><br>
+
+          <div id="div1">
+              <br>
+              <button id="addBtn">Add</button><br><br>
+              <button id="removeBtn">Remove</button><br><br>
+              <button id="updateBtn">Update</button><br><br>
+              
+          </div>
+        </form>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyANipvu6fa1_gaKEx6CJkbGKClWq3xluZI",
+    authDomain: "meuapp-c54b8.firebaseapp.com",
+    projectId: "meuapp-c54b8",
+    storageBucket: "meuapp-c54b8.appspot.com",
+    messagingSenderId: "804554367014",
+    appId: "1:804554367014:web:62a6dcdf864e2c2dcd46e7",
+    measurementId: "G-D81BK241HK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
